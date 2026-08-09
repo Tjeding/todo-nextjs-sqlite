@@ -11,6 +11,7 @@ interface PageProps {
 export default async function EditTaskPage({ params, searchParams }: PageProps) {
   const { id } = await params;
   const { error } = await searchParams;
+  
 
   const task = getTaskById(Number(id));
   if (!task) {

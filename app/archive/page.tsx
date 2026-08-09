@@ -22,4 +22,5 @@ export default async function ArchivePage({ searchParams }: PageProps) {
       <TaskList tasks={tasks} emptyMessage="No archived tasks yet." />
     </div>
   );
+  
 }

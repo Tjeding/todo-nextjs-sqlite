@@ -8,6 +8,7 @@ interface PageProps {
 export default async function CreateTaskPage({ searchParams }: PageProps) {
   const { error } = await searchParams;
 
+  
   return (
     <div className="page page-narrow">
       <h1>New Task</h1>
